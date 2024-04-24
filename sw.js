@@ -2,10 +2,10 @@ self.addEventListener('install', event => {
     event.waitUntil(
         caches.open('my-cache').then(cache => {
             return cache.addAll([
-                '/samenvattingen/',
-                '/samenvattingen/index.html',
-                '/samenvattingen/styles.css',
-                '/samenvattingen/icon.ico'
+                '/Samenvattingen/',
+                '/Samenvattingen/index.html',
+                '/Samenvattingen/styles.css',
+                '/Samenvattingen/icon.ico'
             ]);
         })
     );
